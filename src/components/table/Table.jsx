@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./table.css";
-import { Modal, Select, Tooltip } from "antd";
+import { Modal, Select, Switch, Tooltip } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import Add from "../add-form/Add";
@@ -100,13 +100,7 @@ function Table() {
       status: "Enabled",
       date: "22 / 12 / 20",
     },
-    {
-      name: "Name 1",
-      email: "name@gmail.com",
-      password: "*************",
-      status: "Enabled",
-      date: "22 / 12 / 20",
-    },
+   
   ];
   return (
     <div>
@@ -186,7 +180,10 @@ function Table() {
                 <td>{item.name}</td>
                 <td>{item.email}</td>
                 <td>{item.password}</td>
-                <td>{item.status}</td>
+                <td>
+                <Switch style={{color:"black"}} checkedChildren="Enabled" unCheckedChildren="Disabled" defaultChecked />
+
+                  </td>
 
                 <td>{item.date}</td>
               </tr>

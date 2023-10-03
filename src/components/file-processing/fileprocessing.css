@@ -7,142 +7,202 @@
 
 /* Add border-radius to thead */
 thead {
-    border-radius: 10px; /* Adjust the border radius as needed */
+  border-radius: 10px; /* Adjust the border radius as needed */
+}
+
+/* Rest of your CSS styles */
+.table-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin-left: 16pc;
+  height: 590px;
+}
+
+.list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-spacing: inherit;
+}
+
+.list-th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.list-th {
+  background-color: #f2f2f2;
+}
+
+.table-head {
+  width: 1086px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #241571;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+th,
+td {
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid #dbd7d7; /* Add a border line at the bottom of each row */
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16pc;
+  margin-top: 2pc;
+  margin-bottom: 2pc;
+}
+.input-search {
+  width: 250px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #dedfdf;
+  border: none;
+  padding: 10px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+.input-date {
+  width: 173px;
+  height: 21px;
+  flex-shrink: 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: #dedfdf;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-select-single:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  width: 123px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #dedfdf;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-select .ant-select-arrow {
+  top: 67%;
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-modal-root .ant-modal-mask {
+  background-color: transparent;
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-modal-root .ant-modal-wrap {
+  margin-top: 200px;
+}
+.slider-btn {
+  width: 150px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #241571;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  border: none;
+  margin-right: 20px;
+}
+.completed {
+  border-radius: 6px;
+  background: #14e600;
+  color: black;
+  width: 141px;
+  height: 22px;
+  flex-shrink: 0;
+  padding: 10px 60px;
+}
+
+.in-progress {
+  background-color: #F8DE22;
+  border-radius: 6px;
+  color: black;
+  width: 141px;
+  height: 22px;
+  flex-shrink: 0;
+  padding: 10px 58px;
+
+}
+
+.finished-validation {
+  background-color: #279EFF;
+  border-radius: 6px;
+  color: black;
+  width: 141px;
+  height: 22px;
+  flex-shrink: 0;
+  padding: 10px 30px;
+}
+
+.hold {
+  background-color: #EE9322;
+  border-radius: 6px;
+  color: black;
+  width: 141px;
+  height: 22px;
+  flex-shrink: 0;
+  padding: 10px 78px;
+}
+
+.invalidation {
+    background-color: #97FEED;
+  border-radius: 6px;
+  color: black;
+  width: 141px;
+  height: 22px;
+  flex-shrink: 0;
+  padding: 10px 50px;
+  }
+  .enabled-eye-icon {
+    color: green; /* Change the color as needed */
+    margin-right: 5px;
   }
   
-  /* Rest of your CSS styles */
-  .table-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    margin-left: 16pc;
-    height: 590px;
-  }
-  
-  .list-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    border-spacing: inherit;
-  }
-  
-  .list-th,
-  td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  .list-th {
-    background-color: #f2f2f2;
-  }
-  
-  .table-head {
-    width: 1086px;
-    height: 42px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #241571;
-    color: #fff;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.32px;
-  }
-  
-  th,
-  td {
-    border: none;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  tr {
-    border-bottom: 1px solid #dbd7d7; /* Add a border line at the bottom of each row */
-  }
-  
-  tr:last-child {
-    border-bottom: none;
-  }
-  .btn-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 16pc;
-    margin-top: 2pc;
-    margin-bottom: 2pc;
-  }
-  .input-search {
-    width: 250px;
-    height: 42px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #dedfdf;
-    border: none;
-    padding: 10px;
-    color: #000;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.96px;
-  }
-  .input-date {
-    width: 173px;
-    height: 21px;
-    flex-shrink: 0;
-    padding: 10px;
-    border-radius: 10px;
-    background: #dedfdf;
-    color: #000;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.96px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: none;
-  }
-  :where(.css-dev-only-do-not-override-pr0fja).ant-select-single:not(
-      .ant-select-customize-input
-    )
-    .ant-select-selector {
-    width: 123px;
-    height: 42px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #dedfdf;
-  }
-  
-  :where(.css-dev-only-do-not-override-pr0fja).ant-select .ant-select-arrow {
-    top: 67%;
-  }
-  :where(.css-dev-only-do-not-override-pr0fja).ant-modal-root .ant-modal-mask {
-    background-color: transparent;
-  }
-  :where(.css-dev-only-do-not-override-pr0fja).ant-modal-root .ant-modal-wrap {
-    margin-top: 200px;
-  }
-  .slider-btn{
-    width: 150px;
-    height: 32px;
-    flex-shrink: 0;
-    border-radius: 30px;
-background: #241571;
-color: #FFF;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.32px;
-border: none;
-margin-right: 20px;
+  /* CSS for disabled eye icon */
+  .disabled-eye-icon {
+    color: red; /* Change the color as needed */
+    margin-right: 5px;
   }

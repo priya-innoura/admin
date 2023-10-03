@@ -59,7 +59,7 @@ function Slider() {
             </button>
           </div>
         </div>
-        <div style={{ display: "flex" }}>
+        {/* <div style={{ display: "flex" }}>
           <div>
             <input
               type="date"
@@ -78,7 +78,7 @@ function Slider() {
               defaultValue={defaultValue} 
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="content">
         {activeComponent}

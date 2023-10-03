@@ -1,0 +1,57 @@
+.screen-container-card {
+    border-radius: 16px;
+    background: #FFF;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards-seperators-screen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    min-height: 60vh;
+    margin-left: 25pc;
+    margin-right: 25pc;
+  }
+  .screen-cards {
+    border-radius: 20px;
+    border: 2px solid #241571;
+    background: #FFF;
+    box-shadow: -2px -2px 6px 0px rgba(36, 21, 113, 0.25), 2px 2px 6px 4px rgba(36, 21, 113, 0.25);
+    width: 400px;
+height: 400px;
+flex-shrink: 0;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .text-screen{
+    color: #2C353D;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    margin: 5pc 0;
+  }
+  .count{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle{
+    border-radius: 50%;
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #006CA5;
+filter: drop-shadow(0px 6px 6px rgba(0, 108, 165, 0.60));
+
+  }

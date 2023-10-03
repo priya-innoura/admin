@@ -1,6 +1,10 @@
-.App {
-  text-align: center;
+
+body{
+  margin: 25px;
+  margin-right: 49px;
+  overflow: hidden;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +40,24 @@
     transform: rotate(360deg);
   }
 }
+/* App.css or your custom CSS file */
+
+.App {
+  display: flex;
+  flex-direction: column;
+ 
+  text-align: center;
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px; /* Adjust as needed */
+  overflow: auto;
+}
+
+/* Add styling for Navbar and Sidebar components as needed */

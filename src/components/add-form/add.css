@@ -1,0 +1,288 @@
+.logo {
+  position: relative;
+  width: 100px;
+  height: 24.609px;
+  flex-direction: row;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.form-group {
+  margin-top: 24px;
+  margin-left: 104px;
+}
+
+.form-body {
+  border: none;
+  width: 544px;
+  height: 561px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: -2px -2px 6px 0px rgba(0, 0, 0, 0.15),
+    2px 2px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+#text {
+  color: #8e8585;
+  font-size: 16px;
+}
+
+.username {
+  margin-left: -72px;
+  width: 300px;
+  height: 39.204px;
+  border-radius: 16px;
+  background: #dedfdf;
+  margin-top: -1px;
+  border: none;
+  font-family: Roboto;
+  padding-left: 15px;
+}
+.logo-form{
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.2px;
+text-align: center;
+}
+.email {
+  margin-left: -72px;
+  width: 300px;
+  height: 39.204px;
+  border-radius: 16px;
+  background: #dedfdf;
+  margin-top: -1px;
+  border: none;
+  font-family: Roboto;
+  padding-left: 15px;
+}
+
+.password-form {
+  margin-left: -72px;
+  width: 293px;
+  height: 39.204px;
+  border-radius: 16px;
+  background: #dedfdf;
+  margin-top: -1px;
+  border: none;
+  font-family: Roboto;
+  padding-left: 15px;
+}
+
+.form-body {
+  width: 544px;
+  height: 561px;
+
+  border-radius: 16px;
+  background: #fff;
+  font-family: Roboto;
+}
+
+.add-button {
+  background-color: #2e8a99;
+  border-radius: 10px;
+  /* Default button background color */
+  color: white; /* Default button text color */
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.1s ease, transform 0.2s ease;
+  width: 300px;
+  height: 39.204px;
+
+  border-radius: 16px;
+  background: #241571;
+}
+
+.add-button.clicked {
+  background-color: #2e8a99; /* New button background color when clicked */
+  transform: scale(0.95); /* Scale down the button on click */
+  width: 300px;
+  height: 39.204px;
+  border-radius: 16px;
+}
+
+.add-text {
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  font-family: Roboto;
+}
+
+.cancel-link {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000;
+  text-decoration-line: underline;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+
+  position: relative;
+  font-family: Roboto;
+}
+
+/* .facility-text{
+    border: none;
+    font-size: 10px;
+    display: flex;
+    margin-top: 19px;
+    margin-bottom: -24px;
+    
+  } */
+
+.input-fields {
+  position: relative;
+
+  font-size: 14px;
+  width: 123px;
+  /* height: 34px; */
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: none;
+  font-family: Roboto;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+/* .facility-dropdown{
+    margin-left: -25px; 
+     position: relative;
+    margin-top: 5px;
+    font-size: 14px;
+     */
+/* } */
+
+/* .input-field-option {
+    font-size: 14px;
+    font-weight: 200;
+    background-color: white;
+  } */
+
+.box-admin {
+  align-items: center;
+
+  justify-content: space-between;
+  font-family: Roboto;
+}
+
+.box-physician {
+  margin-top: -11px;
+  margin-bottom: -6px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 170px;
+  justify-content: space-between;
+  font-family: Roboto;
+}
+
+.checkbox-role-left {
+  display: flex;
+}
+
+.checkbox-role-right {
+  display: flex;
+}
+
+.username-input {
+  width: 100;
+  padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+input[type="text"]::placeholder {
+  padding: 10px;
+}
+
+.form-container {
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.fac-txt {
+  position: absolute;
+  margin-top: 100px;
+  font-family: Roboto;
+}
+.css-1n7jxq5 {
+  width: 544px;
+  height: 561px;
+}
+.super-admin-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4pc;
+  flex-direction: column;
+}
+.super-admin-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.super-admin-check {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2pc;
+}
+.facility-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3pc;
+  margin-left: 1pc;
+  margin-right: 1pc;
+}
+.error-message {
+  color: rgb(174, 23, 23);
+  margin-top: 10px;
+  text-align: center;
+  font-family: roboto;
+}
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  background-color: transparent !important;
+}
+.toggle-password {
+  margin-left: -28px;
+  background: none;
+  border: none;
+}
+.my-button.clicked {
+  background: #241571;
+  transform: scale(0.95);
+  width: 46px;
+  height: 42px;
+  box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.6);
+}
+.my-button:hover {
+  box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.6);
+}
+.my-button {
+  width: 46px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #241571;
+  border: none;
+}

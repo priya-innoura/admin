@@ -1,0 +1,73 @@
+/* Sidebar.css */
+.sidebar {
+  width: 9%;
+  border-radius: 16px;
+  background: #241571;
+  color: #fff;
+  position: fixed;
+  height: 75%;
+  top: 175px;
+  left: 30px;
+  padding: 20px;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  margin-bottom: 10px;
+}
+
+.sidebar-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-item a:hover {
+  
+
+}
+
+.active-link {
+  background: #120b39;;
+  border-radius: 6px;
+  color: #fff;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Make the sidebar take the full width */
+    height: auto; /* Let the content determine the height */
+    position: static; /* Remove fixed positioning */
+    border-radius: 0; /* Remove border-radius */
+    padding: 0; /* Remove padding */
+    top: auto; /* Remove top positioning */
+    left: auto; /* Remove left positioning */
+  }
+
+  .sidebar-list {
+    text-align: center; /* Center-align the links */
+  }
+
+  .sidebar-item {
+    margin-bottom: 5px; /* Reduce margin between items */
+  }
+
+  .sidebar-item a {
+    font-size: 16px; /* Reduce font size */
+    padding: 5px 0; /* Reduce padding */
+  }
+
+  .active-link {
+    background-color: #241571 ;
+    color: #fff;
+  }
+}

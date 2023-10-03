@@ -1,0 +1,15 @@
+/* slider.css */
+.slider-btn {
+    background-color: #ccc; /* Default background color */
+    color: #000; /* Default text color */
+    border: none;
+ 
+    cursor: pointer;
+  }
+  
+  .slider-btn.active {
+    border-radius: 30px;
+background: #241571;/* Active background color */
+    color: #fff; /* Active text color */
+  }
+  
